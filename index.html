@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>커스텀 런처 소개</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #1e1e1e;
+            color: #f0f0f0;
+        }
+
+        header {
+            background: linear-gradient(90deg, #4e54c8, #8f94fb);
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            color: #fff;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #e0e0ff;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #8f94fb;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .feature {
+            background-color: #2c2c2c;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .feature:hover {
+            transform: translateY(-10px);
+            background-color: #3a3a3a;
+        }
+
+        .feature h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .feature p {
+            font-size: 1em;
+            color: #ccc;
+        }
+
+        .download {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .download a {
+            display: inline-block;
+            background-color: #8f94fb;
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 40px;
+            border-radius: 30px;
+            font-size: 1.2em;
+            transition: background-color 0.3s;
+        }
+
+        .download a:hover {
+            background-color: #4e54c8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: #111;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>커스텀 런처</h1>
+        <p>당신만의 Minecraft 경험을 완전히 새롭게 시작하세요!</p>
+    </header>
+
+    <section>
+        <h2>런처 소개</h2>
+        <p>
+            커스텀 런처는 모드 지원, 계정 연동, 서버 접속 관리 등 Minecraft 플레이를 더욱 쉽고
+            강력하게 만들어주는 전용 런처입니다. 직관적인 UI와 빠른 업데이트, 다양한 모드 지원으로
+            당신만의 Minecraft 환경을 구성할 수 있습니다.
+        </p>
+    </section>
+
+    <section>
+        <h2>주요 기능</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>모드 지원</h3>
+                <p>필요한 모드를 쉽게 설치하고 관리할 수 있습니다.</p>
+            </div>
+            <div class="feature">
+                <h3>계정 연동</h3>
+                <p>마이크로소프트/모장 계정을 간편하게 연결합니다.</p>
+            </div>
+            <div class="feature">
+                <h3>서버 관리</h3>
+                <p>자주 접속하는 서버를 저장하고 빠르게 접속할 수 있습니다.</p>
+            </div>
+            <div class="feature">
+                <h3>자동 업데이트</h3>
+                <p>런처와 모드를 항상 최신 상태로 유지합니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="download">
+        <a href="#">지금 다운로드</a>
+    </section>
+
+    <footer>
+        &copy; 2026 Custom Launcher. All rights reserved.
+    </footer>
+</body>
+</html>
